@@ -1,0 +1,9 @@
+{
+  "autoload": {
+    "psr-4": {
+      "udemy\\": "vendor/udemy",
+      "app\\": "app"
+  },
+    "require": {}
+    }
+}
