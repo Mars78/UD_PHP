@@ -7,25 +7,25 @@ namespace Composer\Autoload;
 class ComposerStaticInit84b6f5162de471b250fb71b6999fb424
 {
     public static $prefixLengthsPsr4 = array (
-        'u' => 
-        array (
-            'udemy\\' => 6,
-        ),
-        'a' => 
-        array (
-            'app\\' => 4,
-        ),
+        'u' =>
+            array (
+                'udemy\\' => 6,
+            ),
+        'a' =>
+            array (
+                'app\\' => 4,
+            ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'udemy\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/udemy',
-        ),
-        'app\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/app',
-        ),
+        'udemy\\' =>
+            array (
+                0 => __DIR__ . '/..' . '/udemy/core',
+            ),
+        'app\\' =>
+            array (
+                0 => __DIR__ . '/../..' . '/app',
+            ),
     );
 
     public static function getInitializer(ClassLoader $loader)
